@@ -1,0 +1,305 @@
+{
+  "name": "nqcc-eo-base::SAT4",
+  "epoch_utc": "2026-06-24T00:00:00+00:00",
+  "horizon_hours": 8.0,
+  "penalty_single_service": 11.0,
+  "penalty_slew": 11.0,
+  "meta": {},
+  "satellites": [
+    {
+      "id": "SAT4",
+      "name": "STARLINK-1042",
+      "norad_id": 44747,
+      "tle_line1": "1 44747U 19074AL  26175.06887535  .00022059  00000+0  33039-3 0  9998",
+      "tle_line2": "2 44747  53.0415 302.3595 0001553 120.8654 239.2509 15.54912605366590"
+    }
+  ],
+  "requests": [
+    {
+      "id": "REQ00",
+      "name": "Valencia flood watch (ES)",
+      "lat_deg": 39.47,
+      "lon_deg": -0.38,
+      "category": "urgent",
+      "priority": 10
+    },
+    {
+      "id": "REQ01",
+      "name": "Barcelona flood watch (ES)",
+      "lat_deg": 41.39,
+      "lon_deg": 2.17,
+      "category": "urgent",
+      "priority": 9
+    },
+    {
+      "id": "REQ02",
+      "name": "Marseille flood watch (FR)",
+      "lat_deg": 43.3,
+      "lon_deg": 5.37,
+      "category": "urgent",
+      "priority": 9
+    },
+    {
+      "id": "REQ03",
+      "name": "Rome flood watch (IT)",
+      "lat_deg": 41.9,
+      "lon_deg": 12.5,
+      "category": "urgent",
+      "priority": 8
+    },
+    {
+      "id": "REQ04",
+      "name": "Naples wildfire watch (IT)",
+      "lat_deg": 40.85,
+      "lon_deg": 14.27,
+      "category": "urgent",
+      "priority": 8
+    },
+    {
+      "id": "REQ05",
+      "name": "Athens wildfire watch (GR)",
+      "lat_deg": 37.98,
+      "lon_deg": 23.73,
+      "category": "urgent",
+      "priority": 10
+    },
+    {
+      "id": "REQ06",
+      "name": "Los Angeles wildfire (US)",
+      "lat_deg": 34.05,
+      "lon_deg": -118.24,
+      "category": "urgent",
+      "priority": 9
+    },
+    {
+      "id": "REQ07",
+      "name": "San Francisco wildfire (US)",
+      "lat_deg": 37.77,
+      "lon_deg": -122.42,
+      "category": "urgent",
+      "priority": 9
+    },
+    {
+      "id": "REQ08",
+      "name": "Sacramento flood watch (US)",
+      "lat_deg": 38.58,
+      "lon_deg": -121.49,
+      "category": "urgent",
+      "priority": 8
+    },
+    {
+      "id": "REQ09",
+      "name": "Las Vegas flood watch (US)",
+      "lat_deg": 36.17,
+      "lon_deg": -115.14,
+      "category": "urgent",
+      "priority": 7
+    },
+    {
+      "id": "REQ10",
+      "name": "Chiang Mai major fire (TH)",
+      "lat_deg": 18.79,
+      "lon_deg": 98.98,
+      "category": "urgent",
+      "priority": 10
+    },
+    {
+      "id": "REQ11",
+      "name": "Bangkok flood watch (TH)",
+      "lat_deg": 13.76,
+      "lon_deg": 100.5,
+      "category": "urgent",
+      "priority": 8
+    },
+    {
+      "id": "REQ12",
+      "name": "Hanoi flood watch (VN)",
+      "lat_deg": 21.03,
+      "lon_deg": 105.85,
+      "category": "urgent",
+      "priority": 7
+    },
+    {
+      "id": "REQ13",
+      "name": "London air-quality (UK)",
+      "lat_deg": 51.51,
+      "lon_deg": -0.13,
+      "category": "routine",
+      "priority": 3
+    },
+    {
+      "id": "REQ14",
+      "name": "Lagos coastal erosion (NG)",
+      "lat_deg": 6.52,
+      "lon_deg": 3.38,
+      "category": "routine",
+      "priority": 4
+    },
+    {
+      "id": "REQ15",
+      "name": "Mumbai monsoon survey (IN)",
+      "lat_deg": 19.08,
+      "lon_deg": 72.88,
+      "category": "routine",
+      "priority": 4
+    },
+    {
+      "id": "REQ16",
+      "name": "Nairobi agriculture (KE)",
+      "lat_deg": -1.29,
+      "lon_deg": 36.82,
+      "category": "routine",
+      "priority": 4
+    },
+    {
+      "id": "REQ17",
+      "name": "Cape Town reservoirs (ZA)",
+      "lat_deg": -33.92,
+      "lon_deg": 18.42,
+      "category": "routine",
+      "priority": 4
+    },
+    {
+      "id": "REQ18",
+      "name": "Buenos Aires delta (AR)",
+      "lat_deg": -34.6,
+      "lon_deg": -58.38,
+      "category": "routine",
+      "priority": 3
+    },
+    {
+      "id": "REQ19",
+      "name": "Tokyo bay monitoring (JP)",
+      "lat_deg": 35.68,
+      "lon_deg": 139.65,
+      "category": "routine",
+      "priority": 4
+    },
+    {
+      "id": "REQ20",
+      "name": "Santiago snowpack (CL)",
+      "lat_deg": -33.45,
+      "lon_deg": -70.67,
+      "category": "routine",
+      "priority": 3
+    }
+  ],
+  "opportunities": [
+    {
+      "id": 0,
+      "sat_id": "SAT4",
+      "request_id": "REQ00",
+      "t_start": "2026-06-24T04:58:15+00:00",
+      "t_end": "2026-06-24T04:59:30+00:00",
+      "t_best": "2026-06-24T04:59:00+00:00",
+      "duration_s": 75.0,
+      "off_nadir_deg": 40.55,
+      "reward": 10,
+      "los_ecef": [
+        -0.167807,
+        0.322934,
+        -0.931426
+      ]
+    },
+    {
+      "id": 1,
+      "sat_id": "SAT4",
+      "request_id": "REQ01",
+      "t_start": "2026-06-24T04:58:45+00:00",
+      "t_end": "2026-06-24T05:00:30+00:00",
+      "t_best": "2026-06-24T04:59:30+00:00",
+      "duration_s": 105.0,
+      "off_nadir_deg": 36.31,
+      "reward": 9,
+      "los_ecef": [
+        -0.291743,
+        0.413016,
+        -0.86273
+      ]
+    },
+    {
+      "id": 2,
+      "sat_id": "SAT4",
+      "request_id": "REQ02",
+      "t_start": "2026-06-24T04:59:30+00:00",
+      "t_end": "2026-06-24T05:01:15+00:00",
+      "t_best": "2026-06-24T05:00:30+00:00",
+      "duration_s": 105.0,
+      "off_nadir_deg": 32.92,
+      "reward": 9,
+      "los_ecef": [
+        -0.251833,
+        0.20777,
+        -0.945205
+      ]
+    },
+    {
+      "id": 3,
+      "sat_id": "SAT4",
+      "request_id": "REQ12",
+      "t_start": "2026-06-24T05:22:30+00:00",
+      "t_end": "2026-06-24T05:23:15+00:00",
+      "t_best": "2026-06-24T05:22:45+00:00",
+      "duration_s": 45.0,
+      "off_nadir_deg": 47.78,
+      "reward": 7,
+      "los_ecef": [
+        0.677041,
+        -0.213594,
+        -0.704268
+      ]
+    },
+    {
+      "id": 4,
+      "sat_id": "SAT4",
+      "request_id": "REQ13",
+      "t_start": "2026-06-24T06:35:45+00:00",
+      "t_end": "2026-06-24T06:38:00+00:00",
+      "t_best": "2026-06-24T06:36:45+00:00",
+      "duration_s": 135.0,
+      "off_nadir_deg": 5.61,
+      "reward": 3,
+      "los_ecef": [
+        -0.678877,
+        0.071482,
+        -0.730764
+      ]
+    },
+    {
+      "id": 5,
+      "sat_id": "SAT4",
+      "request_id": "REQ19",
+      "t_start": "2026-06-24T02:11:45+00:00",
+      "t_end": "2026-06-24T02:13:30+00:00",
+      "t_best": "2026-06-24T02:12:45+00:00",
+      "duration_s": 105.0,
+      "off_nadir_deg": 33.4,
+      "reward": 4,
+      "los_ecef": [
+        0.612477,
+        0.053164,
+        -0.788699
+      ]
+    }
+  ],
+  "conflicts": [
+    {
+      "kind": "slew",
+      "u": 0,
+      "v": 1,
+      "slack_s": -74.6
+    },
+    {
+      "kind": "slew",
+      "u": 0,
+      "v": 2,
+      "slack_s": -28.2
+    },
+    {
+      "kind": "slew",
+      "u": 1,
+      "v": 2,
+      "slack_s": -92.9
+    }
+  ]
+}

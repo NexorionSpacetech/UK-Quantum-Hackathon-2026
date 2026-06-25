@@ -1,0 +1,22 @@
+id,name,lat_deg,lon_deg,category,priority
+REQ00,Valencia flood watch (ES),39.47,-0.38,urgent,10
+REQ01,Barcelona flood watch (ES),41.39,2.17,urgent,9
+REQ02,Marseille flood watch (FR),43.3,5.37,urgent,9
+REQ03,Rome flood watch (IT),41.9,12.5,urgent,8
+REQ04,Naples wildfire watch (IT),40.85,14.27,urgent,8
+REQ05,Athens wildfire watch (GR),37.98,23.73,urgent,10
+REQ06,Los Angeles wildfire (US),34.05,-118.24,urgent,9
+REQ07,San Francisco wildfire (US),37.77,-122.42,urgent,9
+REQ08,Sacramento flood watch (US),38.58,-121.49,urgent,8
+REQ09,Las Vegas flood watch (US),36.17,-115.14,urgent,7
+REQ10,Chiang Mai major fire (TH),18.79,98.98,urgent,10
+REQ11,Bangkok flood watch (TH),13.76,100.5,urgent,8
+REQ12,Hanoi flood watch (VN),21.03,105.85,urgent,7
+REQ13,London air-quality (UK),51.51,-0.13,routine,3
+REQ14,Lagos coastal erosion (NG),6.52,3.38,routine,4
+REQ15,Mumbai monsoon survey (IN),19.08,72.88,routine,4
+REQ16,Nairobi agriculture (KE),-1.29,36.82,routine,4
+REQ17,Cape Town reservoirs (ZA),-33.92,18.42,routine,4
+REQ18,Buenos Aires delta (AR),-34.6,-58.38,routine,3
+REQ19,Tokyo bay monitoring (JP),35.68,139.65,routine,4
+REQ20,Santiago snowpack (CL),-33.45,-70.67,routine,3

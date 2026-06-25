@@ -1,0 +1,6 @@
+﻿# Optional - only needed for the QAOA scaffold in quantum/qaoa_scaffold.py.
+# Core qiskit is enough (no qiskit-aer required); the scaffold uses qiskit's
+# built-in statevector primitives. Swap them for qiskit-ibm-runtime to run on
+# real hardware (identical primitive/PUB API).
+qiskit>=1.0
+scipy>=1.10

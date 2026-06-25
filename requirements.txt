@@ -1,0 +1,5 @@
+﻿# Core dependencies - data ingestion, propagator, and classical baselines.
+# This is all you need for "hour one": load the data and run the baseline.
+numpy>=1.24
+sgp4>=2.20          # SGP4 orbit propagation from TLEs
+pulp>=2.7           # exact ILP optimum for the full instance (bundles CBC)
